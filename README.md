@@ -19,3 +19,11 @@ Once you are ready:
 8. Copy your existing Unity project folder into this folder
 9. Go back to Github Desktop and create a commit message, then Click "Commit"
 10. Once the commit is complete Click "Push"
+
+If your Library folder is not being ignored open your command line tool in your this folder and run:
+
+`git rm -r --cached Library`
+
+then
+
+`git commit -m "Removed Library Folder from repository"`
